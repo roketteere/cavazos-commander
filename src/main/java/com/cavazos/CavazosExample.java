@@ -1,4 +1,4 @@
-package com.cavazos;
+﻿package com.cavazos;
 
 import java.util.Random;
 import org.json.simple.*;
@@ -7,7 +7,7 @@ public class CavazosExample {
 
   public static void main(String[] args) {
     String fileName =
-      "/Users/jerom/Documents/GitHub/class-java/general-cavazos/undoredo/src/main/java/com/cavazos/commands.json";
+      "src/main/resources/commands.json";
 
     // read coammands
     JSONArray commandJSONArray = JSONFile.readArray(fileName);
