@@ -57,13 +57,13 @@ public class App {
   // prints the menu
   public static void printMenu() {
     printMenuLine();
-    System.out.println("General Cavazos Commander");
+    System.out.println("General Cavazos Commander App");
     printMenuLine();
 
-    printMenuCommand('i', "Issue a random command");
+    printMenuCommand('i', "Issue a command");
     printMenuCommand('l', "List all of the commands");
     printMenuCommand('u', "Undo the last command that was issued");
-    printMenuCommand('r', "Redo the last command that was undone");
+    printMenuCommand('r', "Redo the last command that was issued");
     printMenuCommand('q', "Quit");
 
     printMenuLine();
